@@ -1,0 +1,6 @@
+{
+  "version": 2,
+  "name": "hacker-news-next",
+  "alias": ["hacker-news-next.now.sh"],
+  "builds": [{ "src": "next.config.js", "use": "@now/next" }]
+}
