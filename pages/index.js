@@ -24,7 +24,7 @@ class Index extends React.Component {
   }
 
   componentDidMount() {
-    if ("serviceWorker" in navigator) {
+    if ("ServiceWorker" in navigator) {
       navigator.serviceWorker
         .register("/service-worker.js")
         .then(reg => console.log("Serv Work Registration Complete: ", reg))
